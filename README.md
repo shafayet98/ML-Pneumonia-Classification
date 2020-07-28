@@ -6,7 +6,7 @@ In this project I tried to classify pneumonia by analysing the x-ray images by u
 The whole project was done in **tensorflow 2.0 and keras**. As I finished ["Tensorflow in Practice"](https://www.coursera.org/specializations/tensorflow-in-practice) course from coursera, I tried to implemented what I learned there.
 
 **Accuracy:**
-After running for 45 epochs. I have got training accuracy of 95.53% and validation accuracy of 92.95% 
+After running for 45 epochs. I have got **training accuracy of 95.53%** and **validation accuracy of 92.95%** 
 
 ### Data Collection
 I got this dataset from [kaggle](https://www.kaggle.com/), This is also probably the dataset which has the most kernels, A lot of people used this dataset to explore data and visualise and also for using CNN architecture.
