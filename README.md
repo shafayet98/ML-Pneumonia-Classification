@@ -8,6 +8,9 @@ The whole project was done in **tensorflow 2.0 and keras**. As I finished ["Tens
 **Accuracy:**
 After running for 45 epochs. I have got **training accuracy of 95.53%** and **validation accuracy of 92.95%** 
 
+**Evaluation:**
+After sending an image as input in the model the model outputs a 1X2 matrix where 2 column contains 0 or 1. As the folder structure is NORMAL and PNEUMONIA so, if first column is 0 and second column is 1, then, the input x-ray image is unfortunately of a Penumonia Patient and if the column value is 1 and 0 then it's vice versa. If multiple images are provided as input then each row of the output matrix will represent single input image.
+
 ### Data Collection
 I got this dataset from [kaggle](https://www.kaggle.com/), This is also probably the dataset which has the most kernels, A lot of people used this dataset to explore data and visualise and also for using CNN architecture.
 
